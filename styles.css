@@ -50,14 +50,13 @@ h1{
 h2{
 	text-align: center;
 }
-.max {
-	padding: 50px;
-	margin-left: 200px; 
+.fighters {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 280px;
+	margin-right: 300px;
 }
-.val {
-	padding: 50px;
-	margin-left: 300px; 
-}
+
 footer{
 	display: flex;
 	justify-content: space-between;
