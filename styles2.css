@@ -1,4 +1,6 @@
+/*Ahmad Alsaady 12/14/2023*/
 @charset "utf-8";
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -40,6 +42,7 @@ input[type="submit"] {
 button {
 	margin: 20px;
 }  
+
 .frame {
   width: 90%;
   margin: 40px auto;
@@ -47,6 +50,7 @@ button {
 	display: flex;
 	justify-content: flex-end;
 }
+
 .btn-2 {
   background: rgb(96,9,240);
   background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
@@ -67,12 +71,13 @@ button {
    4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
 	border-radius: 30%;
-  
 }
+
 .btn-2:before {
   height: 0%;
   width: 2px;
 }
+
 .btn-2:hover {
   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
@@ -80,9 +85,10 @@ button {
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
 
-h1{
+h1 {
 	text-align: center;
 }
-h2{
+
+h2 {
 	text-align: center;
 }
